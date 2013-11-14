@@ -40,3 +40,6 @@ G:\ABackuP\Flashdrive back up\GRCC_Class_Files\Winter\CO225\Completed_Assignment
 G:\ABackuP\Flashdrive back up\GRCC_Class_Files\Winter\CO225\Completed_Assignments\WinterSportsRentals_JasonFedewa\obj\x86\Debug\WinterSportsRentals_JasonFedewa.WinterSportsRentals.resources
 G:\ABackuP\Flashdrive back up\GRCC_Class_Files\Winter\CO225\Completed_Assignments\WinterSportsRentals_JasonFedewa\obj\x86\Debug\WinterSportsRentals_JasonFedewa.Resources.resources
 G:\ABackuP\Flashdrive back up\GRCC_Class_Files\Winter\CO225\Completed_Assignments\WinterSportsRentals_JasonFedewa\obj\x86\Debug\WinterSportsRentals_JasonFedewa.vbproj.GenerateResource.Cache
+C:\Users\Knolan\Documents\GitHub\SampleCode\WinterSportsRentals_JasonFedewa\obj\x86\Debug\WinterSportsRentals_JasonFedewa.exe
+C:\Users\Knolan\Documents\GitHub\SampleCode\WinterSportsRentals_JasonFedewa\obj\x86\Debug\WinterSportsRentals_JasonFedewa.xml
+C:\Users\Knolan\Documents\GitHub\SampleCode\WinterSportsRentals_JasonFedewa\obj\x86\Debug\WinterSportsRentals_JasonFedewa.pdb

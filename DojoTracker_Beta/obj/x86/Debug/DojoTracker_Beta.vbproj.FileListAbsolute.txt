@@ -30,3 +30,18 @@ G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\Do
 G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.Resources.resources
 G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.StudentMgt.resources
 G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.vbproj.GenerateResource.Cache
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.exe.config
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.exe
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.xml
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.pdb
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\bin\Debug\DojoTrackDB.sdf
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.exe
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.pdb
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.xml
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.AdminLogin.resources
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.AdultLogin.resources
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.frmMain.resources
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.LittleDragonsLogin.resources
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.Resources.resources
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.StudentMgt.resources
+C:\Users\Knolan\Documents\GitHub\SampleCode\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.vbproj.GenerateResource.Cache
