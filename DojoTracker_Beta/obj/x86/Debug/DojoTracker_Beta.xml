@@ -1,0 +1,165 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DojoTracker_Beta
+</name>
+</assembly>
+<members>
+<member name="P:DojoTracker_Beta.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DojoTracker_Beta.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DojoTracker_Beta.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:DojoTracker_Beta.DojoTrackDBEntities.#ctor">
+	<summary>
+ Initializes a new DojoTrackDBEntities object using the connection string found in the 'DojoTrackDBEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:DojoTracker_Beta.DojoTrackDBEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new DojoTrackDBEntities object.
+ </summary>
+</member><member name="M:DojoTracker_Beta.DojoTrackDBEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new DojoTrackDBEntities object.
+ </summary>
+</member><member name="P:DojoTracker_Beta.DojoTrackDBEntities.Settings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.DojoTrackDBEntities.Students">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DojoTracker_Beta.DojoTrackDBEntities.AddToSettings(DojoTracker_Beta.Setting)">
+	<summary>
+ Deprecated Method for adding a new object to the Settings EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DojoTracker_Beta.DojoTrackDBEntities.AddToStudents(DojoTracker_Beta.Student)">
+	<summary>
+ Deprecated Method for adding a new object to the Students EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:DojoTracker_Beta.DojoTrackDBEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DojoTracker_Beta.Setting.CreateSetting(System.String,System.Double,System.Double)">
+	<summary>
+ Create a new Setting object.
+ </summary>
+	<param name="settingId">Initial value of the SettingId property.</param>
+	<param name="adultHrValue">Initial value of the AdultHrValue property.</param>
+	<param name="kidHrValue">Initial value of the KidHrValue property.</param>
+</member><member name="P:DojoTracker_Beta.Setting.SettingId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Setting.AdultHrValue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Setting.KidHrValue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DojoTracker_Beta.Setting">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DojoTracker_Beta.Student.CreateStudent(System.Guid,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Int32,System.String,System.DateTime,System.Boolean,System.String,System.String)">
+	<summary>
+ Create a new Student object.
+ </summary>
+	<param name="studentId">Initial value of the StudentId property.</param>
+	<param name="fname">Initial value of the Fname property.</param>
+	<param name="lname">Initial value of the Lname property.</param>
+	<param name="phone">Initial value of the Phone property.</param>
+	<param name="active">Initial value of the Active property.</param>
+	<param name="teacher">Initial value of the Teacher property.</param>
+	<param name="admin">Initial value of the Admin property.</param>
+	<param name="hoursEarned">Initial value of the HoursEarned property.</param>
+	<param name="hoursTaught">Initial value of the HoursTaught property.</param>
+	<param name="rank">Initial value of the Rank property.</param>
+	<param name="startDate">Initial value of the StartDate property.</param>
+	<param name="adult">Initial value of the Adult property.</param>
+	<param name="loginName">Initial value of the LoginName property.</param>
+	<param name="loginPw">Initial value of the LoginPw property.</param>
+</member><member name="P:DojoTracker_Beta.Student.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Fname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Lname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Active">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Teacher">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Admin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.HoursEarned">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.HoursTaught">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Rank">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.StartDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Adult">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.LoginName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.LoginPw">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.Paid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DojoTracker_Beta.Student.LastLogin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DojoTracker_Beta.Student">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member>
+</members>
+</doc>

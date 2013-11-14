@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DojoTrackDBModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DojoTrackDBModelStoreContainer">
+    <EntitySet Name="Setting" EntityType="DojoTrackDBModel.Store.Setting" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="DojoTrackDBModel.Store.Student" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="Setting">
+    <Key>
+      <PropertyRef Name="SettingId" />
+    </Key>
+    <Property Name="SettingId" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AdultHrValue" Type="float" Nullable="false" />
+    <Property Name="KidHrValue" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Fname" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Lname" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Teacher" Type="bit" Nullable="false" />
+    <Property Name="Admin" Type="bit" Nullable="false" />
+    <Property Name="HoursEarned" Type="float" Nullable="false" />
+    <Property Name="HoursTaught" Type="int" Nullable="false" />
+    <Property Name="Rank" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="Adult" Type="bit" Nullable="false" />
+    <Property Name="LoginName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="LoginPw" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Paid" Type="bit" />
+    <Property Name="LastLogin" Type="datetime" />
+  </EntityType>
+</Schema>

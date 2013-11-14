@@ -1,0 +1,32 @@
+E:\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTrackDB.sdf
+E:\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.exe.config
+E:\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.exe
+E:\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.pdb
+E:\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.xml
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.AdminLogin.resources
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.AdultLogin.resources
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.frmMain.resources
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.LittleDragonsLogin.resources
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.Resources.resources
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.StudentMgt.resources
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.exe
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.xml
+E:\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.pdb
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.exe.config
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.exe
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.xml
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.pdb
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTrackDB.sdf
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.exe
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.pdb
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\bin\Debug\DojoTracker_Beta.xml
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.AdminLogin.resources
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.AdultLogin.resources
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.frmMain.resources
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.LittleDragonsLogin.resources
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.Resources.resources
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.StudentMgt.resources
+G:\ABackuP\Flashdrive back up\GRCC_Class_Files\DojoTracker_Beta\obj\x86\Debug\DojoTracker_Beta.vbproj.GenerateResource.Cache
