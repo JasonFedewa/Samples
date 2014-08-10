@@ -5,79 +5,44 @@ Date:    Dec 15th, 2013
 Purpose: To practice my coding. Parses a string and returns a number based on what is contained in the string.
 
 public class Main {
-
 	public static void main(String[] args) {
 		
-		String varIn = "-xx---xxx-xx-xxxx-"; 		   //Should be 20,324
-		String answer = parseString(varIn);
+		String varIn = "-xx---xxx-xx-xxxx-"; 		//Should be 200,324
+		int answer = parseString(varIn);
 		System.out.println(answer);
-		
-		varIn = "-xxx-------"; 						         //Should be 300
+		varIn = "-xxx-------"; 				//Should be 3,000,000
 		answer = parseString(varIn);
 		System.out.println(answer);
-		
-		varIn = "-xxxxxxx------xxx-xx-xxxx-"; 		 //Should be 700,324
+		varIn = "-xxxxxxx------xxx-xx-xxxx-"; 		//Should be 700,000,324
 		answer = parseString(varIn);
 		System.out.println(answer);
-		
-		varIn = "-xxxxxxxx-xxx------xxx-xx-xxxx-"; //Should be 8,300,324
+		varIn = "-xxxxxxxx-xxx---xx-xxxxxx-";		//Should be 830,026
 		answer = parseString(varIn);
 		System.out.println(answer);
-		
-		varIn = "-x-x-xx-xxxxxxx-"; 				      //Should be 1,127
+		varIn = "-x-x-xx-xxxxxxx-"; 			//Should be 1,127
 		answer = parseString(varIn);
 		System.out.println(answer);
-		
-		varIn = "-xxxxxXXxx-xxx---xx-xxxxxxx-";   //Should be 93,027 
+		varIn = "-xxxxxXXxx-xxx---xx-xxxxxxx-"; 	//Should be 930,027
 		answer = parseString(varIn);
 		System.out.println(answer);
-		
-		varIn = "-x-"; 								            //Should be 1
+		varIn = "-x-"; 					//Should be 1
+		answer = parseString(varIn);
+		System.out.println(answer);
+		varIn = "-----xx-x-"; 				//Should be 21
 		answer = parseString(varIn);
 		System.out.println(answer);
 	}
 	
-	public static String parseString(String varIn) {
-	
-		char[] ca = varIn.toCharArray();		 //Takes the string and breaks it into individual characters.
-		Integer dashCt = 0; 					       //keeps track of the number of dashes in the string.
-		Integer xCt = 0;						         //Keeps track of the number of X's in the string.
-		String answer = "";					      	 //Used to create the returned translation of X's and dashe's.
-		
-		for (int i = 0;i<varIn.length();i++) {
-			
-			if ((ca[i] =='x') || (ca[i] =='X')){
-				xCt +=1;
-				i++;
-				if (i < varIn.length()){		     //Check to make sure the forward look does not go out of bounds
-					if((ca[i] =='x') || (ca[i] =='X')){
-						i--;
-					}else if (ca[i]=='-'){
-						answer += xCt.toString();
-						i--;
-						xCt = 0; 				             //Resets xCt to 0.
-					}
-				}				
-			}else if(ca[i]=='-'){				
-				dashCt +=1;
-				if(dashCt == 3){
-					dashCt = 0;					          //Reset dashCt to 0
-					answer += dashCt.toString();  //append zero to answer
-				}
-				i++;
-				if (i < varIn.length()){		    //Check to make sure the forward look does not go out of bounds
-					if((ca[i] =='x') || (ca[i] =='X')){
-						i--;
-						dashCt = 0;
-					}else if (ca[i]=='-'){
-						i--;
-					}
-				}
-				
-			}
-			
-		}
-				
-		return answer;							        //translated number from the string
+	public static int parseString(String knots) {
+		int res = 0;
+
+	    for (int i = 1, l = 0; i < knots.length(); ++i)
+	      if (knots.charAt(i) == '-') {
+	        res = res * 10 + (i - l - 1);
+	        l = i;
+	      }
+
+	    return res;
+
 	}
 }
